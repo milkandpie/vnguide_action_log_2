@@ -2,13 +2,12 @@
 name = "vnguide-action-log-2"
 version = "0.1.0"
 description = ""
-authors = ["dungpq <dungphanquang@vccorp.vn>"]
-readme = "README.md"
-packages = [{include = "vnguide_action_log_2"}]
+authors = ["dungpq <phanquangdng@gmail.com>"]
+packages = [{ include = "vnguide_action_log_2" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-clean-architecture = {git = "ssh://git@github.com/milkandpie/clean_architecture.git"}
+clean-architecture = {git = "ssh://git@github.com/milkandpie/clean_architecture.git", branch='feat#package'}
 
 
 [build-system]

@@ -1,5 +1,5 @@
 from beanie import Indexed
-from clean_architecture.infrastructure.persistences.mongo.models._based_document import BasedDocument
+from clean_architecture.infrastructure.persistences.mongo.models import BasedDocument
 
 
 class ActionLogDAO(BasedDocument):
